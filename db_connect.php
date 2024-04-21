@@ -14,5 +14,4 @@ if (!$con) {
 // else {
 //     echo ('Database Succesfully Connected');
 // }
-
 ?>
