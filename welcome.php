@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="http://localhost/Music_last_v_PHP_With_Login_system/style.css">
     <link rel="stylesheet" href="media.css">
     <title>Music Website</title>
 </head>
@@ -25,7 +26,7 @@
                 <li class="songItem">
                     <span>01</span>
                     <img src="img/1.jpg" alt="">
-                    <h5>On My Way <br>
+                    <h5>On My Way<br>
                         <div class="subtitle">Alan Walker</div>
                     </h5>
                     <i class="bi playListPlay bi-play-circle-fill" id="1"></i>
@@ -84,8 +85,9 @@
         <div class="song_side">
             <nav>
                 <ul>
-                    <li>Discover <span></span></li>
+                    <li><a href="http://localhost/Music_last_v_PHP_With_Login_system/welcome.php">Discover</a></li>
                     <li>MY LIBRARY</li>
+                    <li><a href="http://localhost/Music_last_v_PHP_With_Login_system/podcast_shows.php"> PODCAST SHOWS</a></li>
                     <li>RADIO</li>
                 </ul>
                 <div class="search">
@@ -352,3 +354,4 @@
 </body>
 
 </html>
+

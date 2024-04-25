@@ -520,4 +520,3 @@ music.addEventListener('ended', ()=>{
             break;
     }
 })
-
